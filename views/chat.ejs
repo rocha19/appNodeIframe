@@ -1,16 +1,11 @@
+<%- include ('partials/header.ejs') %>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="css\favicon.ico">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Farmacovigilancia</title>
-</head>
+
+
 <body>
-    <iframe src='http://survey.imunelabs.com/lite/farmacovigilancia-imunik/?m=channel-web&v=Fullscreen&options=%7B%22hideWidget%22%3Atrue%2C%22config%22%3A%7B%22enableReset%22%3Atrue%2C%22enableTranscriptDownload%22%3Atrue%7D%7D' frameborder="0"></iframe>
-    </div>
+    <%- include ('partials/navbar.ejs') %>
+    <iframe id="link" title="link do bot imunik"src='http://survey.imunelabs.com/lite/farmacovigilancia-imunik/?m=channel-web&v=Fullscreen&options=%7B"hideWidget"%3Atrue%2C"config"%3A%7B"enableReset"%3Atrue%2C"enableTranscriptDownload"%3Atrue%7D%7D' frameborder="0"></iframe>
+
 </body>
-</html>
+
+<%- include ('partials/footer.ejs') %>

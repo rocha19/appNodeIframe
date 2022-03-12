@@ -1,0 +1,39 @@
+html{
+    background-color: rgb(180, 252, 218);
+}
+iframe{
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    border: none; padding-top: 32px;
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+
+div{
+    background-color: rgb(78, 247, 168);
+    box-shadow: 0.5em 0.5em 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#img {
+	background-image: url('css/navlogo.png');
+	margin-left: 20em;
+}
+
+#btn {
+    display: block;
+    top: 10em;
+}
+
+h1 {
+    display: inline;
+}
+#link {
+    display: inline;
+    top: 3%;
+    /*border:5px solid rgb(7, 139, 25);*/
+}
