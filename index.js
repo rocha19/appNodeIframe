@@ -10,10 +10,10 @@ app.get("/", (request, response) => {
     response.render("index");
 });
 
-app.get("/farmacovigilancia-imunik", (request, response) => {
-    response.render("chat");
+app.get("/page2", (request, response) => {
+    response.render("page2");
 });
 
 app.listen(3306, () => {
-    console.log("Servidor online em http://localhost:3306");
+    console.log("Servidor online em http://localhost:5000");
 })
